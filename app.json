@@ -1,10 +1,10 @@
 {
-  "name": "ULTRA MD",
-  "description": " Whatsapp bot made by GlobalTechInfo.",
+  "name": "ZaRab MD",
+  "description": " Whatsapp bot made by Pakteam.",
   "keywords": [
     "whatsapp"
   ],
-  "repository": "https://github.com/GlobalTechInfo/ULTRA-MD",
+  "repository": "https://github.com/ZaRab803/ZaRab-MD",
   "stack": "container",
   "env": {
     "OWNERS": {
@@ -44,7 +44,7 @@
     },
     "statusview": {
       "description": "make it true if you want bot to view status",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "autoRead": {
@@ -55,7 +55,7 @@
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
