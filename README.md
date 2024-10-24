@@ -3,7 +3,7 @@
 
 <p align="center">  
   <a href="https://youtu.be/oXQjl39Bl7M">
-    <img alt="ULTRA" height="300" src="https://i.imgur.com/K7q4Xh4.jpeg">
+    <img alt="ULTRA" height="300" src="https://i.ibb.co/5v4vrfR/20241021-033752.jpg">
     <h1 align="center">ULTRA-MD 3.O</h1>
   </a>
 </p>
@@ -60,23 +60,23 @@ Then Deploy And Enjoy
 
 1. #### SETUP
 
-1. Fork the repo
+Fork the repo
     <br>
 <a href='https://github.com/GlobalTechInfo/ULTRA-MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 
-2. Get Creds.json (Server 1)
+Get Creds.json (Server 1)
     
-     <a href='https://necessary-margaretha-oletters-ba309cdc.koyeb.app/' target="_blank"><img alt='SERVER 1' src='https://img.shields.io/badge/Creds.json-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+ <a href='https://necessary-margaretha-oletters-ba309cdc.koyeb.app/' target="_blank"><img alt='SERVER 1' src='https://img.shields.io/badge/Creds.json-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
-
-3. Get Creds.json (Server 2)
+----
+Get Creds.json (Server 2)
     <br>
 <a href='https://replit.com/@tlptrends92/GLOBAL-SESSIONS#main.sh' target="_blank"><img alt='SERVER 2' src='https://img.shields.io/badge/Creds.json-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
-2. set the Env Vars.
+set the Env Vars.
     <br>
 
 
@@ -95,12 +95,12 @@ Then Deploy And Enjoy
 
 2. #### DEPLOY TO Toystack
 
-1. If You don't have an account in Toystack. Create an account.
+ If You don't have an account in Toystack. Create an account.
     <br>
 <p align="center"><a href="https://toystack.ai"> <img src="https://img.shields.io/badge/Toystack%20Account-blue?style=for-the-badge&logo=Toystack" width="220" height="38.45"/></a></p>
 
 
-2. Now Deploy
+ Now Deploy
    <br>
  <div align="center">
   <a href="https://toystack.ai">
@@ -108,15 +108,22 @@ Then Deploy And Enjoy
   </a>
 </div>
 
+----
 
+_Heroku is not gonna work with creds.json for this bot only. So replace this number_
+
+_golbal.botNumber='923051391007'_
+_with your number in config.js_
+
+_Then in Deployment terminal It will Shows you a pairing code at the end of Deployment, Pair with your WhatsApp and enjoy._
 
 3. #### DEPLOY TO HEROKU
 
-1. If You don't have an account in Heroku. Create a account.
+ If You don't have an account in Heroku. Create a account.
     <br>
 <p align="center"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-2. Now Deploy
+Now Deploy
    <br>
  <div align="center">
   <a href="https://heroku.com/deploy?template=https://github.com/GlobalTechInfo/Bypass">
@@ -124,30 +131,47 @@ Then Deploy And Enjoy
   </a>
 </div>
 
+----
+
 4. #### DEPLOY TO KOYEB
 
-1. if you don't have a koyeb account. Create an account.
+if you don't have a koyeb account. Create an account.
    <br>
    <p align="center"><a href="https://app.koyeb.com/auth/signup"> <img src="https://img.shields.io/badge/Koyeb account-blue?style=for-the-badge&logo=koyeb" width="220" height="38.45"/></a></p>
 
-2. Now deploy
+ Now deploy
    <br>
 <p align="center"><a href="https://app.koyeb.com/auth/signin"> <img src="https://img.shields.io/badge/Deploy%20To%20Koyeb-orange?style=for-the-badge&logo=koyeb" width="220" height="38.45"/></a></p>
   
+----
 
 5. #### DEPLOY TO RENDER
 
-1. if you don't have a Render account. Create an account.
+if you don't have a Render account. Create an account.
    <br>
    <p align="center"><a href="https://dashboard.render.com/register"> <img src="https://img.shields.io/badge/Render account-blue?style=for-the-badge&logo=render" width="220" height="38.45"/></a></p>
 
-2. Now deploy
+ Now deploy
    <br>
    <p align="center"><a href="https://dashboard.render.com"> <img src="https://img.shields.io/badge/Deploy%20To%20Render-maroon?style=for-the-badge&logo=render" width="220" height="38.45"/></a></p>
+
+----
+
+6. #### Deploy In Replit
+   <br>
+   <p align="center"><a href="https://repl.it/github/GlobalTechInfo/ULTRA-MD"> <img src="https://img.shields.io/badge/Deploy%20To%20Replit-orange?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+
+----
+
+7. #### Deploy In Code Space
+   <br>
+   <p align="center"><a href="https://github.com/codespaces/new"> <img src="https://img.shields.io/badge/Deploy%20To%20CodeSpace-black?style=for-the-badge&logo=visualstudiocode" width="220" height="38.45"/></a></p>
+  
   
  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
 
+----
 
 <p align="center">
   

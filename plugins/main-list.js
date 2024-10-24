@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         : m.sender
   if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
 
-  let pp = './assets/ultra.jpg'
+  let pp = './assets/Ultra.jpg'
   let more = String.fromCharCode(8206)
   let readMore = more.repeat(850)
 
@@ -60,13 +60,17 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         'animemenu* - Animated Images,Stickers and Videos.\n\n' +
          '🪁 *' +
         usedPrefix +
-        'infoanime* - Full Information About Animes Like imdb.' 
+        'infoanime* - Full Information About Animes Like imdb.\n\n' +
+        '💡 *' +
+        usedPrefix +
+        'imagen* - Create Images and designs based on your thoughts/prompts.' 
         break
 
     case 'botmenu':
       lkr = `
 ╭───『 *Bot* 』─❍
 ◈ •quran
+◈ •autoreact
 ◈ •bible
 ◈ •gita
 ◈ •ping
@@ -74,6 +78,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •alive
 ◈ •language
 ◈ •server
+◈ •rentbot
+◈ •listrent
+◈ •stoprent
 ◈ •botinfo
 ◈ •owner
 ◈ •script
@@ -106,6 +113,21 @@ let handler = async (m, { conn, usedPrefix, command }) => {
  ◈ •dalle
  ◈ •bro
  ◈ •ai
+ ╰─────────❍` //
+ break
+      case 'imagen':
+      lkr=`
+ ╭───『 *Imagen* 』─❍
+ ◈ •hercai-lexica
+ ◈ •hercai-raava
+ ◈ •hercai-shonin
+ ◈ •hercai-cartoon
+ ◈ •hercai-animefy
+ ◈ •hercai-prodia
+ ◈ •hercai-simurg
+ ◈ •photoleap
+ ◈ •realistic
+ ◈ •dalle
  ╰─────────❍` //
  break
     case 'ownermenu':
@@ -150,6 +172,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •getfile
 ◈ •logout
 ◈ •unban
+◈ •update
 ◈ •ban
 ◈ •afk
 ◈ •save
@@ -200,20 +223,16 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     case 'dlmenu':
       lkr = `
 ╭───『 *Download* 』─❍
-◈ •video
+◈ •likee
 ◈ •pinterest
 ◈ •threads
 ◈ •capcut
 ◈ •itunes
 ◈ •play
 ◈ •play2
-◈ •play3
 ◈ •play7
-◈ •apk
 ◈ •mega
 ◈ •yts
-◈ •yta
-◈ •ytv
 ◈ •ytmp3 
 ◈ •ytmp4
 ◈ •gimage
@@ -369,11 +388,11 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     case 'stickermenu':
       lkr = `
 ╭───『 *Sticker* 』─❍
-◈ •sticker
+◈ •s
 ◈ •take
 ◈ •scircle
 ◈ •smaker
-◈ •sremovebg
+◈ •removebg
 ◈ •smeme
 ◈ •trigger
 ◈ •getsticker
@@ -382,10 +401,14 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •toimg
 ◈ •tovid
 ◈ •ttp
+◈ •ttp2
+◈ •ttp3
+◈ •ttp4
+◈ •ttp5
 ◈ •attp
 ◈ •attp2
 ◈ •attp3
-◈ Would Not Work Without bg Key
+◈ Add remove bg key First
 ╰─────────❍` //
       break
     case 'toolmenu':
@@ -575,6 +598,7 @@ lkr=`
 handler.help = [
   'list',
   'aimenu',
+  'imagen',
   'animemenu',
   'aeditor',
   'infoanime',
@@ -595,6 +619,7 @@ handler.tags = ['main']
 handler.command = [
   'list',
   'aimenu',
+  'imagen',
   'animemenu',
   'aeditor',
   'infoanime',
